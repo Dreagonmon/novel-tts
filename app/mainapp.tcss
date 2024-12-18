@@ -1,0 +1,47 @@
+Screen {
+    layout: vertical;
+}
+
+#c_status_bar {
+    dock: bottom;
+}
+
+/* ======== cut chapter panel ======== */
+
+#t_cut_chapter #c_bottom_panel {
+    dock: bottom;
+    height: 3;
+}
+
+#t_cut_chapter #c_bottom_panel #w_rule_cut {
+    dock: right;
+    margin-right: 1;
+}
+
+#t_cut_chapter #c_panel_right #c_bottom_buttons {
+    dock: bottom;
+    height: auto;
+    margin-left: 1;
+    margin-right: 1;
+    align: center middle;
+}
+
+#t_cut_chapter #c_panel_right #c_bottom_buttons Button {
+    margin-left: 1;
+}
+
+#t_cut_chapter #c_panel_right #c_bottom_buttons Button:first-of-type {
+    margin-left: 0;
+}
+
+#t_cut_chapter #c_panel_left {
+    dock: left;
+    min-width: 32;
+    width: 30%;
+    max-width: 64;
+}
+
+#t_cut_chapter #c_panel_left LoadingIndicator {
+    dock: bottom;
+    height: 1;
+}
